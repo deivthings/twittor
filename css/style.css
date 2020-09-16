@@ -17,7 +17,8 @@ html, body {
   margin: 0px !important;
   color: red;
   font-size: 16px;
-  background-color: #dde1e2; 
+  /* background-color: #dde1e2; */
+  background-color: yellow; 
   width: 100%;
 
   /* AVOID PULL TO REFRESH */

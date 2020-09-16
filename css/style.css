@@ -15,15 +15,19 @@
 
 html, body {
   margin: 0px !important;
-  color: #7f8c8d;
+  color: red;
   font-size: 16px;
   background-color: #dde1e2; 
   width: 100%;
 
   /* AVOID PULL TO REFRESH */
   overscroll-behavior-y: contain;
+
+  /*no se pueda seleccionar texto en las pantallas*/
   -webkit-user-select: none;
+  /*no se pueda highlight texto*/
   -webkit-tap-highlight-color: transparent;
+  /*no aparezacan callouts ios*/
   -webkit-touch-callout: none;
 }
 

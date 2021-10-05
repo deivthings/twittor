@@ -1,3 +1,13 @@
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    fetch(event.request)
+      .then(res => {
+        console.log(res)
+        return res
+      })
+  )
+}
+/* 
 importScripts('js/sw-utils.js');
 
 const STATIC_CACHE    = 'static-v6';
@@ -75,7 +85,7 @@ self.addEventListener( 'fetch', e => {
   e.respondWith( respuesta );
 
 });
-
+ */
 /* self.addEventListener('fetch', e => {
   // si hay match en el caché retorna la respuesta 
   const resp = caches.match(e.request)

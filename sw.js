@@ -6,7 +6,7 @@ self.addEventListener('fetch', event => {
         return res
       })
   )
-}
+})
 /* 
 importScripts('js/sw-utils.js');
 
